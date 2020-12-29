@@ -1,0 +1,75 @@
+﻿<Window x:Class="PhaseSpaceVisualizer.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib"
+    xmlns:psc="clr-namespace:PhaseSpaceControlLib;assembly=PhaseSpaceControlLib"
+    Title="Phase Space Visualizer" Height="768" Width="1024">
+    
+    <Window.Resources>
+        <sys:String x:Key="dataFilePath" >
+            <!--C:\Temp\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceVisualizer\Daily insolation 10mybp.txt-->
+            Daily insolation 10mybp.txt
+            <!--C:\Documents and Settings\Jim\My Documents\Technophiles\Daily insolation 100mybp.txt-->
+
+            <!-- NH sea level contrib.txt -->
+            <!-- SH sea level contrib.txt -->
+            <!-- global sea level.txt -->
+            <!-- global sea level_interp.txt -->
+            <!-- detrended LR04 stack - zero mean.txt -->
+            <!-- NH insol 65N Jun.txt -->
+            <!-- SH insol 65S Dec.txt -->
+            <!-- model d18o.txt -->
+            <!-- Daily insolation 10mybp.txt -->
+            
+        </sys:String>
+        
+    </Window.Resources>
+    
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="7*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+    
+        <!--<psc:PhaseSpaceControl 
+            Gain="5"
+            Phase="{Binding ElementName=slider1, Path=Value }"
+            DataFilePath="{StaticResource dataFilePath}"  
+            Grid.ColumnSpan="1" Background="Black" BorderBrush="White" BorderThickness="1" />-->
+        
+        <psc:PhaseSpace3DControl
+            Gain="0.05"
+            Phase="{Binding ElementName=slider1, Path=Value }"
+            DataFilePath="{StaticResource dataFilePath}"
+            Grid.Column="1"
+            Background="Black" BorderBrush="White" BorderThickness="1" Name="phaseSpace3DControl" />
+        
+        <!--<psc:PhaseSpace3DControl2 Grid.Column="1" />-->
+        
+        
+        <Grid Grid.ColumnSpan="2" Grid.Row="1" Name="grid1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3*" />
+                <RowDefinition Height="3*" />
+                <RowDefinition Height="3*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <TextBlock Name="textBlock1" Text="Delay (samples)" FontWeight="Bold" FontSize="12" TextAlignment="Right" Margin="0,8.628,10,0" VerticalAlignment="Top" Height="14.483" />
+            <TextBlock Grid.ColumnSpan="2" Grid.Row="1" Margin="0,16.252" Name="textBlock2" HorizontalAlignment="Center" Text="{StaticResource dataFilePath}" TextAlignment="Center" FontSize="10" FontWeight="Bold" Grid.RowSpan="2" Width="432.697" />
+            <Button Grid.ColumnSpan="2" Grid.Row="2" Margin="467,4,460,3" Name="button1" Click="button1_Click">Poincare Map</Button>
+        </Grid>
+        <StackPanel Grid.Column="1" Margin="0,1.111,0,0" Name="stackPanel1" Grid.Row="1">
+            <Slider Name="slider1" Interval="1" Minimum="0" Maximum="100" IsSnapToTickEnabled="True" Height="22" Width="Auto" Margin="5,0,0,0" />
+            <TextBlock Text="{Binding ElementName=slider1, Path=Value }" FontSize="12" FontWeight="Bold" Width="Auto" Height="Auto" HorizontalAlignment="Left" />
+        </StackPanel>
+        <TextBlock Height="21" Margin="12,12,0,0" Name="textBlock3" VerticalAlignment="Top" HorizontalAlignment="Left" Width="120" Foreground="White" Text="2D embedding" />
+        <TextBlock Foreground="White" Height="21" HorizontalAlignment="Left" Margin="13.64,12,0,0" Name="textBlock4" Text="3D embedding" VerticalAlignment="Top" Width="120" Grid.Column="1" />
+    </Grid>
+</Window>

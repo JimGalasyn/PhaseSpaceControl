@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhaseSpaceControlLib", "PhaseSpaceControl\PhaseSpaceControlLib.csproj", "{3CAAC994-E505-42FB-95CB-E9C36B34D045}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhaseSpaceVisualizer", "PhaseSpaceVisualizer\PhaseSpaceVisualizer.csproj", "{AC30EEEA-4B36-4FE3-8C12-37F40F7C2894}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3DTools", "..\3DTools-1.01-src\3DTools\3DTools.csproj", "{5F603892-DE40-4246-A969-1C6717AFE35D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CAAC994-E505-42FB-95CB-E9C36B34D045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CAAC994-E505-42FB-95CB-E9C36B34D045}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CAAC994-E505-42FB-95CB-E9C36B34D045}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CAAC994-E505-42FB-95CB-E9C36B34D045}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC30EEEA-4B36-4FE3-8C12-37F40F7C2894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC30EEEA-4B36-4FE3-8C12-37F40F7C2894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC30EEEA-4B36-4FE3-8C12-37F40F7C2894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC30EEEA-4B36-4FE3-8C12-37F40F7C2894}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F603892-DE40-4246-A969-1C6717AFE35D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F603892-DE40-4246-A969-1C6717AFE35D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F603892-DE40-4246-A969-1C6717AFE35D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F603892-DE40-4246-A969-1C6717AFE35D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA74A27E-0C16-4507-925F-47E3CC9A74B4}
+	EndGlobalSection
+EndGlobal
