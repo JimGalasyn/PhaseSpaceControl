@@ -179,7 +179,7 @@
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type local:PhaseSpace3DControl2}">
 
-                    <ControlTemplate.Resources>
+                    <!--<ControlTemplate.Resources>
                         <tools:ScreenSpaceLines3D 
                                 x:Key="_screenSpaceLines3D"
                                 x:Name="PART_ScreenSpaceLines3D" 
@@ -193,7 +193,7 @@
                                 </RotateTransform3D>
                             </tools:ScreenSpaceLines3D.Transform>
                         </tools:ScreenSpaceLines3D>
-                    </ControlTemplate.Resources>
+                    </ControlTemplate.Resources>-->
 
                     <Border Background="{TemplateBinding Background}"
                             BorderBrush="{TemplateBinding BorderBrush}"
@@ -201,12 +201,19 @@
                         <Grid x:Name="PART_Grid"
                               Background="{TemplateBinding Background}"  >
 
-
-
                             <tools:Trackport3D 
                                 x:Name="PART_Trackport3D" 
                                 Grid.Column="0" 
-                                Grid.Row="0" />
+                                Grid.Row="0">
+                                
+                            </tools:Trackport3D>
+
+                            <!--<tools:Trackport3D 
+                                x:Name="PART_Trackport3D" 
+                                Grid.Column="0" 
+                                Grid.Row="0" 
+                                DataContext="{StaticResource _screenSpaceLines3D}" 
+                                Model="{Binding Content}"/>-->
                         </Grid>
                     </Border>
                 </ControlTemplate>

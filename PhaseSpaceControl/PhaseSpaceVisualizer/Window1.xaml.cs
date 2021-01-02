@@ -26,15 +26,15 @@ namespace PhaseSpaceVisualizer
 
         private void button1_Click( object sender, RoutedEventArgs e )
         {
-            if( this.phaseSpace3DControl.PoincareMapZ.IsVisible )
-            {
-                Window w = this.phaseSpace3DControl.PoincareMapZ;
-                //Window w = this.phaseSpace3DControl.PoincareMapX;
-            }
-            else
-            {
-                this.phaseSpace3DControl.PoincareMapZ.Show();
-            }
+            //if( this.phaseSpace3DControl.PoincareMapZ.IsVisible )
+            //{
+            //    Window w = this.phaseSpace3DControl.PoincareMapZ;
+            //    //Window w = this.phaseSpace3DControl.PoincareMapX;
+            //}
+            //else
+            //{
+            //    this.phaseSpace3DControl.PoincareMapZ.Show();
+            //}
             
         }
     }

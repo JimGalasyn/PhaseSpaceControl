@@ -1,0 +1,16 @@
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceControl\bin\Debug\PhaseSpaceControlLib.dll
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceControl\bin\Debug\PhaseSpaceControlLib.pdb
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceControl\bin\Debug\3DTools.dll
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceControl\bin\Debug\3DTools.pdb
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceControl\obj\Debug\PhaseSpaceControlLib.csprojAssemblyReference.cache
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceControl\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceControl\obj\Debug\PhaseSpaceControlLib_MarkupCompile.cache
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceControl\obj\Debug\PhaseSpaceControlLib_MarkupCompile.lref
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceControl\obj\Debug\Themes\Generic.baml
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceControl\obj\Debug\PhaseSpaceControlLib.g.resources
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceControl\obj\Debug\PhaseSpaceControlLib.Properties.Resources.resources
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceControl\obj\Debug\PhaseSpaceControlLib.csproj.GenerateResource.cache
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceControl\obj\Debug\PhaseSpaceControlLib.csproj.CoreCompileInputs.cache
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceControl\obj\Debug\PhaseSpaceControlLib.csproj.CopyComplete
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceControl\obj\Debug\PhaseSpaceControlLib.dll
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceControl\obj\Debug\PhaseSpaceControlLib.pdb

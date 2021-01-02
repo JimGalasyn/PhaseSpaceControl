@@ -40,13 +40,15 @@ namespace _3DTools
     public partial class Trackport3D : UserControl
     {
         private Trackball _trackball = new Trackball();
-        private readonly ScreenSpaceLines3D Wireframe = new ScreenSpaceLines3D();
+        public ScreenSpaceLines3D ScreenSpaceLines = new ScreenSpaceLines3D();
+
+        private ViewMode _viewMode;
 
         public Trackport3D()
         {
             InitializeComponent();
 
-            this.Viewport.Children.Add(Wireframe);
+            this.Viewport.Children.Add(ScreenSpaceLines);
             this.Camera.Transform = _trackball.Transform;
             this.Headlight.Transform = _trackball.Transform;
         }
@@ -57,10 +59,30 @@ namespace _3DTools
         /// </summary>
         public void LoadModel(System.IO.Stream fileStream)
         {
-            _model = (Model3D)XamlReader.Load(fileStream);
-
-            SetupScene();
+            this.Model = (Model3D)XamlReader.Load(fileStream);
         }
+
+        public static readonly DependencyProperty ModelProperty = DependencyProperty.Register(
+            "Model",
+            typeof(Model3D),
+            typeof(Trackport3D));
+
+
+        public Model3D Model
+        {
+            get
+            {
+                return (Model3D)this.GetValue(ModelProperty);
+            }
+
+            set
+            {
+                this.SetValue(ModelProperty, value);
+
+                SetupScene();
+            }
+        }
+
 
         public Color HeadlightColor
         {
@@ -78,7 +100,7 @@ namespace _3DTools
         {
             get { return _viewMode; }
             set
-            { 
+            {
                 _viewMode = value;
                 SetupScene();
             }
@@ -89,13 +111,13 @@ namespace _3DTools
             switch (ViewMode)
             {
                 case ViewMode.Solid:
-                    this.Root.Content = _model;
-                    this.Wireframe.Points.Clear();
+                    this.Root.Content = this.Model;
+                    this.ScreenSpaceLines.Points.Clear();
                     break;
 
                 case ViewMode.Wireframe:
                     this.Root.Content = null;
-                    this.Wireframe.MakeWireframe(_model);
+                    this.ScreenSpaceLines.MakeWireframe(this.Model);
                     break;
             }
         }
@@ -107,8 +129,5 @@ namespace _3DTools
             // same sized transparent Border positioned on top of the Viewport3D.
             _trackball.EventSource = CaptureBorder;
         }
-
-        private ViewMode _viewMode;
-        private Model3D _model;
     }
 }

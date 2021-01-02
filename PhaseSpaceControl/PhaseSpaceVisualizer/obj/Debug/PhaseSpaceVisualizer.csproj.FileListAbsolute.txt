@@ -1,0 +1,22 @@
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceVisualizer\bin\Debug\Daily insolation 100mybp.txt
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceVisualizer\bin\Debug\Daily insolation 10mybp.txt
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceVisualizer\bin\Debug\PhaseSpaceVisualizer.exe.config
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceVisualizer\bin\Debug\PhaseSpaceVisualizer.exe
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceVisualizer\bin\Debug\PhaseSpaceVisualizer.pdb
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceVisualizer\bin\Debug\PhaseSpaceControlLib.dll
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceVisualizer\bin\Debug\3DTools.dll
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceVisualizer\bin\Debug\PhaseSpaceControlLib.pdb
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceVisualizer\bin\Debug\3DTools.pdb
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceVisualizer\obj\Debug\PhaseSpaceVisualizer.csprojAssemblyReference.cache
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceVisualizer\obj\Debug\Window1.baml
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceVisualizer\obj\Debug\Window1.g.cs
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceVisualizer\obj\Debug\App.g.cs
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceVisualizer\obj\Debug\PhaseSpaceVisualizer_Content.g.cs
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceVisualizer\obj\Debug\PhaseSpaceVisualizer_MarkupCompile.cache
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceVisualizer\obj\Debug\PhaseSpaceVisualizer.g.resources
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceVisualizer\obj\Debug\PhaseSpaceVisualizer.Properties.Resources.resources
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceVisualizer\obj\Debug\PhaseSpaceVisualizer.csproj.GenerateResource.cache
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceVisualizer\obj\Debug\PhaseSpaceVisualizer.csproj.CoreCompileInputs.cache
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceVisualizer\obj\Debug\PhaseSpaceVisualizer.csproj.CopyComplete
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceVisualizer\obj\Debug\PhaseSpaceVisualizer.exe
+C:\Users\JimGalasyn\Source\Repos\PhaseSpaceControl\PhaseSpaceControl\PhaseSpaceVisualizer\obj\Debug\PhaseSpaceVisualizer.pdb

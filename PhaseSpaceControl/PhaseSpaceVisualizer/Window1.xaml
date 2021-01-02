@@ -35,20 +35,26 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
     
-        <!--<psc:PhaseSpaceControl 
+        <psc:PhaseSpaceControl 
             Gain="5"
             Phase="{Binding ElementName=slider1, Path=Value }"
             DataFilePath="{StaticResource dataFilePath}"  
-            Grid.ColumnSpan="1" Background="Black" BorderBrush="White" BorderThickness="1" />-->
+            Grid.Column="0" Background="Black" BorderBrush="White" BorderThickness="1" />
         
-        <psc:PhaseSpace3DControl
+        <!--<psc:PhaseSpace3DControl
             Gain="0.05"
             Phase="{Binding ElementName=slider1, Path=Value }"
             DataFilePath="{StaticResource dataFilePath}"
             Grid.Column="1"
-            Background="Black" BorderBrush="White" BorderThickness="1" Name="phaseSpace3DControl" />
-        
-        <!--<psc:PhaseSpace3DControl2 Grid.Column="1" />-->
+            Background="Black" BorderBrush="White" BorderThickness="1" Name="phaseSpace3DControl" />-->
+
+        <psc:PhaseSpace3DControl2
+            Name="phaseSpace3DControl" 
+            Grid.Column="1"            
+            Gain="0.05"
+            Phase="{Binding ElementName=slider1, Path=Value }"
+            DataFilePath="{StaticResource dataFilePath}"
+/>
         
         
         <Grid Grid.ColumnSpan="2" Grid.Row="1" Name="grid1">
